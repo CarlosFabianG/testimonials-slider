@@ -2,7 +2,41 @@ body {
     font-family: 'Inter', sans-serif;
     font-size: 32px;
 }
+.slider__container-1 {
+    display:flex;
+    background-image: url('images/pattern-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slider__text {
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    font-weight: 300;
+    background-image: url('images/pattern-quotes.svg');
+    background-repeat: no-repeat;
+}
+.slider__img {
+    width: 500px;
+    height: 450px;
+}
+.slider__img img {
+    max-width: 100%;
+    height: auto;
+}
+.slider__img button {
+}
 
+.curve {
+    background-image: url('images/pattern-curve.svg');
+}
+.prev-button {
+    background-image: url('images/icon-prev.svg');
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+}
 
-
-
+.slider__container-2 {
+    display: none;
+}
