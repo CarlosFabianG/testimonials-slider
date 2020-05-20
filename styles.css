@@ -1,42 +1,59 @@
 body {
+    margin: 0px;
     font-family: 'Inter', sans-serif;
     font-size: 32px;
 }
+.slider__container {
+    margin-top: 5vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
 .slider__container-1 {
-    display:flex;
-    background-image: url('images/pattern-bg.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 90%;
 }
 .slider__text {
-    display:flex;
+    display: flex;
     flex-direction: column;
-    align-content: center;
+    justify-content: center;
+    width: 40%;
+    font-size: 1.5rem;
     font-weight: 300;
     background-image: url('images/pattern-quotes.svg');
     background-repeat: no-repeat;
 }
+.slider__text span {
+    font-weight: 700;
+    font-size: 1rem;
+}
 .slider__img {
-    width: 500px;
-    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-image: url('images/pattern-bg.svg');
+    background-size: cover;
+    width: 520px;
+    height: 480px;
 }
 .slider__img img {
-    max-width: 100%;
-    height: auto;
+   
+    width: 300px;
+    height: 300px;
 }
-.slider__img button {
+.button {
+    width:30%;
 }
-
 .curve {
     background-image: url('images/pattern-curve.svg');
-}
-.prev-button {
-    background-image: url('images/icon-prev.svg');
-    background-repeat: no-repeat;
-    width: 50px;
-    height: 50px;
 }
 
 .slider__container-2 {
     display: none;
 }
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
