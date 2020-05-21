@@ -28,8 +28,9 @@ body {
     font-weight: 300;
     background-image: url('images/pattern-quotes.svg');
     background-position: top;
-   background-size: 6rem;
+    background-size: 6rem;
     background-repeat: no-repeat;
+    margin-left: 50px;
 }
 .slider__text span {
     font-weight: 700;
@@ -49,9 +50,9 @@ body {
 }
 .slider__img img {
    
-    width: 400px;
-    height: 400px;
-    margin-top: 50px;
+    width: 420px;
+    height: 420px;
+    margin-top: 70px;
 }
 .button {
     width:30%;
