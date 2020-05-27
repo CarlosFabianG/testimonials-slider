@@ -30,7 +30,9 @@ body {
     padding-top: 40px
 }
 .slider__text img {
-    position: absolute;
+    position: relative;
+    top: 2rem;
+    left: 6rem;
     width: 100px;
 }
 .slider__text p {
