@@ -9,32 +9,38 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 }
 .slider__container-1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 90vw;
 }
 .slider__text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    width: 40%;
+    width: 45%;
     height: 340px;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: 300;
     background-image: url('images/pattern-quotes.svg');
     background-position: top;
     background-size: 6rem;
     background-repeat: no-repeat;
     margin-left: 50px;
+    padding-top: 40px
 }
 .slider__text span {
     font-weight: 700;
     font-size: 1rem;
+}
+#span-text {
+    font-size: 1rem;
+    font-weight: 500;
+    color: hsl(240, 18%, 77%);
 }
 .slider__img {
     display: flex;
