@@ -27,7 +27,6 @@ body {
     font-weight: 300;
     margin-top: 5.5rem;
     margin-left: 50px;
-    padding-top: 40px
 }
 .slider__text img {
     position: relative;
@@ -62,14 +61,13 @@ body {
     margin-left: 39vw;
 }
 .slider__img img {
-   
     width: 420px;
     height: 420px;
     margin-top: 70px;
     box-shadow: 1px 8px 35px -27px hsl(240, 38%, 20%);
 }
 .button {
-    width:30%;
+    width:60px;
 }
 .curve {
     background-image: url('images/pattern-curve.svg');
@@ -77,6 +75,22 @@ body {
 
 .slider__container-2 {
     display: none;
+}
+button {
+    width:100px;
+    height: 30px;
+}
+.button button {
+    background-color: white;
+    display: flex;
+    margin: 0;
+    border-radius: 15px;
+    border: 0px;
+}
+.button img {
+    width: 1rem;
+    height: 1rem;
+    margin-top: 0px;
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
