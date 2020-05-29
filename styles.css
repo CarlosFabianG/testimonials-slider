@@ -67,6 +67,7 @@ body {
 }
 .button {
     width:60px;
+    margin-right: 260px;
 }
 .curve {
     background-image: url('images/pattern-curve.svg');
